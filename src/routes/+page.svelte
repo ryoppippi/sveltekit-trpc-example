@@ -1,10 +1,8 @@
 <script>
-	import { trpc } from '$lib/trpc/client';
-
-	const greeting = trpc().example.greeting.query();
+	export let data;
 </script>
 
-{#await greeting}
+{#await data.streamed.greeting}
 	<p>loading...</p>
 {:then { message }}
 	<p>{message}</p>
