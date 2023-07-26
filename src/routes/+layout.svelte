@@ -7,22 +7,17 @@
 </script>
 
 <div class="header">
-	{#each routes as route}
-		<div>
-			{#if route !== $page.route.id}
-				<a href={route}>{route}</a>
-			{:else}
-				<p>{route}</p>
-			{/if}
-		</div>
-	{/each}
+	<ul>
+		{#each routes as route}
+			<li>
+				{#if route !== $page.route.id}
+					<a href={route}>{route}</a>
+				{:else}
+					{route}
+				{/if}
+			</li>
+		{/each}
+	</ul>
 </div>
 
 <slot />
-
-<style>
-	.header {
-		display: flex;
-		gap: 1rem;
-	}
-</style>
