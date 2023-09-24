@@ -15,7 +15,7 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.38.0",
+		"@playwright/test": "^1.38.1",
 		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.25.0",
 		"@total-typescript/ts-reset": "^0.5.1",
