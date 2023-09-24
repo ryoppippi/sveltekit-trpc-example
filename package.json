@@ -23,7 +23,7 @@
 		"@trpc/server": "^10.38.3",
 		"@typescript-eslint/eslint-plugin": "^5.62.0",
 		"@typescript-eslint/parser": "^5.62.0",
-		"eslint": "^8.28.0",
+		"eslint": "^8.49.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
 		"prettier": "^2.8.8",
