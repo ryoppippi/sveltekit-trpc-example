@@ -33,7 +33,7 @@
     "svelte": "^5.0.0-next.26",
     "svelte-check": "^3.6.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "typescript-svelte-plugin": "^0.3.35",
     "vite": "^5.0.0",
     "vitest": "^1.0.0",
