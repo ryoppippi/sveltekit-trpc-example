@@ -37,7 +37,7 @@
     "typescript-svelte-plugin": "^0.3.38",
     "vite": "^5.2.10",
     "vitest": "^1.5.2",
-    "zod": "^3.23.4"
+    "zod": "^3.23.5"
   },
   "type": "module"
 }
