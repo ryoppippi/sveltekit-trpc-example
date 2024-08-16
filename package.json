@@ -18,7 +18,7 @@
     "@playwright/test": "^1.46.0",
     "@sveltejs/adapter-auto": "^3.2.4",
     "@sveltejs/adapter-vercel": "^5.4.3",
-    "@sveltejs/kit": "^2.5.21",
+    "@sveltejs/kit": "^2.5.22",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "@total-typescript/ts-reset": "^0.5.1",
     "@trpc/client": "^10.45.2",
