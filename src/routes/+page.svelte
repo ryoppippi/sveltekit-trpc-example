@@ -1,9 +1,7 @@
 <script>
-	export let data;
+	const { data } = $props();
 
-	$: ({
-		greeting: { message }
-	} = data);
+	const { message } = data.greeting;
 </script>
 
 <p>{message}</p>

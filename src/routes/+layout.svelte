@@ -4,6 +4,8 @@
 	const routes = Object.keys(import.meta.glob('./**/+page.svelte'))
 		.map((route) => '/' + route.replace('./', '').replace('+page.svelte', '').replace(/\/$/, ''))
 		.sort((a, b) => a.split('/').length - b.split('/').length);
+
+	const { children } = $props();
 </script>
 
 <div class="header">
@@ -20,4 +22,4 @@
 	</ul>
 </div>
 
-<slot />
+{@render children()}

@@ -1,7 +1,7 @@
 <script>
-	export let data;
+	const { data } = $props();
 
-	$: ({ message } = data);
+	const { message } = data;
 </script>
 
 <p>{message}</p>
