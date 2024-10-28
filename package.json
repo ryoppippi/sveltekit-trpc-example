@@ -15,7 +15,7 @@
     "test:unit": "vitest"
   },
   "devDependencies": {
-    "@playwright/test": "^1.48.1",
+    "@playwright/test": "^1.48.2",
     "@sveltejs/adapter-auto": "^3.3.1",
     "@sveltejs/adapter-vercel": "^5.4.6",
     "@sveltejs/kit": "^2.7.3",
