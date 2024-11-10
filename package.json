@@ -17,7 +17,7 @@
   "devDependencies": {
     "@playwright/test": "^1.48.2",
     "@sveltejs/adapter-auto": "^3.3.1",
-    "@sveltejs/adapter-vercel": "^5.4.6",
+    "@sveltejs/adapter-vercel": "^5.4.7",
     "@sveltejs/kit": "^2.7.7",
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
     "@total-typescript/ts-reset": "^0.6.1",
